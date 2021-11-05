@@ -418,7 +418,26 @@
 
 
 
+#### 切换zookeeper为EDAS
 
+pom.xml中加入EDAS依赖
+
+```xml
+<dependency>
+         <groupId>com.alibaba.edas</groupId>
+         <artifactId>edas-dubbo-extension</artifactId>
+         <version>1.0.1</version>
+     </dependency>
+```
+
+application.properties
+
+修改注册中心地址
+
+```
+dubbo.registry.address=edas://127.0.0.1:8080
+dubbo.scan.basePackages=me.gary.edas.boot
+```
 
 
 
