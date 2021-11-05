@@ -76,6 +76,14 @@
          <version>2.0.5.RELEASE</version>
          <scope>test</scope>
      </dependency>
+     <!-- 使用EDAS  -->
+     <!-- 
+     <dependency>
+         <groupId>com.alibaba.edas</groupId>
+         <artifactId>edas-dubbo-extension</artifactId>
+         <version>1.0.1</version>
+     </dependency>
+      -->
   </dependencies>
   <build>
 		<plugins>
